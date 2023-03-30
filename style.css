@@ -8,8 +8,10 @@
   src: url('fonts/Alkatra-VariableFont_wght.ttf');
 }
 
-body{
-  height: 100vh;
+body {
+  background: #F9F6F0;
+  height: 100%;
+  padding-bottom: 2rem;
 }
 
 * {
@@ -24,7 +26,7 @@ body{
     width: 100%;
     height: 100%;
     padding: 0 10%;
-    background: #F9F6F0;
+
 }
 nav{
     display: grid;
@@ -218,6 +220,10 @@ ul li a:hover{
     color: #abb6dd;
     opacity: 0.8;
     transition: 0.7s;
+  }
+
+  .Post {
+    display: flex;
   }
 
   .Post p1{
