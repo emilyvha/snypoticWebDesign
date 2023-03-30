@@ -115,7 +115,7 @@ ul li a:hover{
     margin-left: 12%;
     margin-right: 12%;
     margin-bottom: 2%;
-    margin-top: 0.5%;
+    margin-top: -0.5%;
     text-align: center;
     font-size: 20px;
   }
@@ -189,4 +189,42 @@ ul li a:hover{
   .Blog-Image2 img{
     display: block;
     margin: 0 auto;
+  }
+
+  .Blog-Image1 a{
+    text-decoration: none;
+    color: #000000;
+
+  }
+
+  .Blog-Image2 a{
+    text-decoration: none;
+    color: #000000;
+
+  }
+
+  .Blog-Image1 a:hover {
+    color: #abb6dd;
+    opacity: 0.8;
+    transition: 0.7s;
+  }
+  
+  .Blog-Image2 a:hover {
+    color: #abb6dd;
+    opacity: 0.8;
+    transition: 0.7s;
+  }
+
+  .Post-1 p1{
+    font-family: Alkatra;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Post-1 p2{
+    font-family: Alkatra;
+    font-size: 20px;
+    text-align: center;
+    padding: 0 5%;
   }
