@@ -1,18 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Caveat", "Alkatra";
+@font-face {
+  font-family: "Caveat";
+  src: url('https://fonts.google.com/specimen/Caveat');
 }
 
 @font-face {
+  font-family: "Alkatra";
+  src: url('https://fonts.google.com/specimen/Alkatra');
+}
 
-    font-family: "Caveat";
-    src: url('https://fonts.google.com/specimen/Caveat');
-    font-family: "Alkatra";
-    src: url('https://fonts.google.com/specimen/Alkatra');
-   
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", "Alkatra";
+}
 
 .header{
 
