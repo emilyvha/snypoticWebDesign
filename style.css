@@ -215,16 +215,56 @@ ul li a:hover{
     transition: 0.7s;
   }
 
-  .Post-1 p1{
+  .Post p1{
     font-family: Alkatra;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    margin-top: -38%;
+    margin-left: -5.5%;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
 
-  .Post-1 p2{
+  .Post p2{
     font-family: Alkatra;
     font-size: 20px;
-    text-align: center;
-    padding: 0 5%;
+    height: 0%;
+    width: 60%;
+    margin-top: -1.5%;
+    margin-left: 39.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Post p3{
+    font-family: Caveat;
+    font-size: 40px;
+    margin-top: -35.9%;
+    margin-left: -5.5%;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+  }
+
+  .Post p3 a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    opacity: 80%;
+  }
+
+  .Post p3 a:hover{
+    text-decoration: none;
+    color: #abb6dd;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: 0.5s;
   }
