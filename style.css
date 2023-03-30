@@ -268,3 +268,49 @@ ul li a:hover{
     opacity: 0.8;
     transition: 0.5s;
   }
+
+  .contact-text p{
+    margin-top: 15%;
+    font-family: Alkatra;
+    font-size: 50px;
+    font-style: italic;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .contact a{
+    font-family: Alkatra;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #dfbdc5;
+
+  }
+
+  .contact a:hover{
+    font-family: Alkatra;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    height: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #dfbdc5;
+    opacity: 50%;
+    transition: 0.5s;
+
+  }
+
